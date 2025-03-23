@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGuard Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h1 class="title">Welcome to SafeGuard</h1>
+        <p class="subtitle">Choose a feature below:</p>
+
+        <div class="button-container">
+            <button onclick="window.location.href='https://sosservice.streamlit.app/'">🚨 SOS Alert</button>
+            <button onclick="window.location.href='https://camrecorder.streamlit.app/'">🎤 Recorder</button>
+            <button onclick="window.location.href='https://fakecall.streamlit.app/'">📞 Fake Call</button>
+            <button onclick="window.location.href='https://securebot.streamlit.app/'">🤖 Chatbot</button>
+        </div>
+
+        <button class="logout-btn" onclick="logout()">🚪 Logout</button>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

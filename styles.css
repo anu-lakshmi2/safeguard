@@ -1,0 +1,102 @@
+*/ Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Import a stylish Google Font for the title */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Home container */
+.home-container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Title - Catchy & Bold */
+.title {
+    font-size: 3.5rem; /* Even larger font */
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif; /* New stylish font */
+    text-transform: uppercase; /* Makes it look stronger */
+    letter-spacing: 2px; /* Adds spacing for effect */
+    margin-bottom: 20px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #34495e;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 15px;
+}
+
+/* Feature buttons */
+button {
+    padding: 16px;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Input fields styling */
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    height: auto; 
+    display: block;
+    margin: 30px auto;
+}
+
+/* Logout button */
+.logout-btn {
+    margin-top: 30px;
+    background: #c0392b;
+    font-size: 22px;
+    padding: 16px;
+}
